@@ -21,6 +21,13 @@ CheckList before submit code
 * Type ```make lint``` and fix all the style problems.
 * Type ```make doc``` and fix all the warnings.
 
+Available args
+==============
+USE_HDFS=1 - supports read/write HDFS.
+USE_S3=1 - supports read/write S3.
+USE_AZURE=1 - supports Azure.
+BUILD_TEST=1 - runs build tests.
+
 NOTE
 ====
 deps:
